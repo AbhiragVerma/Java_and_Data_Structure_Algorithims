@@ -37,3 +37,39 @@
 ## 
 
 ->  there is like... ki matlab jaha jo yeh hai a = 10, toh yaha 10 jo hai object hota hai or yeh "a" refrernece hota hai or yeh 10 jo hai heap memory mei store hota hai, or yeh "a" stack memory mei hota hai.
+
+# Java 
+
+- the .java file (which is the human readable format).
+- it goes to the compiler and created to the .class file(byte code). it compiles entire file.
+- then interpter (line by line) Machine Code (0 and 1).
+- this code will not directly run on a system.
+- we need JVM to run this.
+- Reason why Java is platform independent.
+
+# Java Development Kit
+
+- provides environment to develop and run the java program.
+- It is  a package that includes;
+    - development tools - to provide an environment to develop your program.
+    - JRE - to execute your program.
+    - a compiler - javac
+    - archiver - jar.
+    - docs generator - javadoc
+    - interpreter/ loader.
+
+# Java Runtime Envirnonment
+
+- It is installation package that provides environment to only run the program
+- it consists of;
+    - Deployment technologies.
+    - User interface toolkits.
+    - Integration Libraries.
+    - Base libraries.
+    - JVM
+- After we get the .class file, the next things happen at runtime;
+    - class loader loads all classes needed to execute the program.
+    - JVM sends code to byte code verifier to check the format of code.
+
+# Java Source Code --> JDK --> ByteCode --> JVM --> JRE 
+
